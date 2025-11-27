@@ -1,0 +1,4 @@
+artifacts/data_ingestion/
+*.zip
+__pycache__/
+*.pyc
