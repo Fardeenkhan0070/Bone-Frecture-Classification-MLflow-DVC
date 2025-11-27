@@ -2,3 +2,44 @@ artifacts/data_ingestion/
 *.zip
 __pycache__/
 *.pyc
+# Ignore entire artifacts folder
+artifacts/
+
+# Zip files
+*.zip
+*.tar.gz
+*.rar
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Model files (if large)
+*.h5
+*.pkl
+*.pth
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Logs
+*.log

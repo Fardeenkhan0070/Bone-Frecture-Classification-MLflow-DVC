@@ -1,4 +1,4 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: cnnClassifier
 Version: 0.0.0
 Summary: A small python package for Bone Fracture Classification
@@ -6,6 +6,12 @@ Home-page: https://github.com/Fardeenkhan0070/Bone-Frecture-Classification-MLflo
 Author: Fardeenkhan0070
 Author-email: fardeenmahar0070@gmail.com
 Project-URL: Bug Tracker, https://github.com/Fardeenkhan0070/Bone-Frecture-Classification-MLflow-DVC-Deep-learnning-/issues
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
 
 # Kidney-Disease-Classification-MLflow-DVS
 # Bone-Frecture-Classification-MLflow-DVC-Deep-learnning-
