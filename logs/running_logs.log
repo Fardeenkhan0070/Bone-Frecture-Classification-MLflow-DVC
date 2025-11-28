@@ -35,3 +35,41 @@ x==========x]
 [2025-11-27 13:25:49,886: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2025-11-28 07:17:04,434: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-28 07:17:04,434: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-28 07:17:04,434: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-28 07:17:04,434: INFO: common: created directory at: artifacts]
+[2025-11-28 07:17:04,434: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-28 07:17:04,447: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1hU1mKiPk-X3AvuSbVJXvgs7rcuKXgL4x/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-28 07:24:00,555: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1hU1mKiPk-X3AvuSbVJXvgs7rcuKXgL4x/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-28 07:24:04,943: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-11-28 07:24:47,294: INFO: stage_02_prepare_base_model: *******************]
+[2025-11-28 07:24:47,294: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2025-11-28 07:24:47,310: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-28 07:24:47,310: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-28 07:24:47,310: INFO: common: created directory at: artifacts]
+[2025-11-28 07:24:47,310: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-11-28 07:24:48,469: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-11-28 07:24:48,885: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-11-28 07:26:38,558: INFO: stage_03_model_training: *******************]
+[2025-11-28 07:26:38,558: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2025-11-28 07:26:38,558: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-28 07:26:38,573: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-28 07:26:38,573: INFO: common: created directory at: artifacts]
+[2025-11-28 07:26:38,573: INFO: common: created directory at: artifacts\training]
+[2025-11-28 07:35:45,683: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-11-28 07:37:38,604: INFO: stage_03_model_training: *******************]
+[2025-11-28 07:37:38,604: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2025-11-28 07:37:38,604: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-28 07:37:38,604: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-28 07:37:38,604: INFO: common: created directory at: artifacts]
+[2025-11-28 07:37:38,604: INFO: common: created directory at: artifacts\training]
+[2025-11-28 08:05:43,451: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
